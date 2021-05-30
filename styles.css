@@ -65,7 +65,21 @@ main div h1{
 }
 .grid-area div{
     position: relative;
+    transition-timing-function:ease;
+   transition-duration:0.5s ;
+   transition-property: all; 
+ 
 }
+.grid-area>div:hover{
+
+    font-size: 1.4rem;
+    transform:perspective(500px) translateZ(7px);
+     z-index: 99;
+     opacity:0.7;
+     
+  
+  }
+  
 main div div:nth-child(1){
    
     grid-column: 1/5;
