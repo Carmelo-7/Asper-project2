@@ -48,6 +48,7 @@ nav ul li a{
 main div.grid-area{
     display: grid;
     gap: 0.5rem;
+grid-row-gap:1rem;
     padding: 2rem;
     max-width: 100%;
     grid-template-columns: repeat(12,1fr);
@@ -66,14 +67,14 @@ main div h1{
 .grid-area div{
     position: relative;
     transition-timing-function:ease;
-   transition-duration:0.5s ;
+   transition-duration:1s ;
    transition-property: all; 
  
 }
 .grid-area>div:hover{
 
     font-size: 1.4rem;
-    transform:perspective(500px) translateZ(7px);
+    transform:perspective(500px) translateZ(20px);
      z-index: 99;
      opacity:0.7;
      
