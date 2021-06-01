@@ -283,7 +283,7 @@ footer div.links ul{
         flex-direction: column;
         width: 100%;
         position: relative;
-        left: 5vw;
+        left: 10vw;
     }
     body > main > h1{
         text-align: center;
