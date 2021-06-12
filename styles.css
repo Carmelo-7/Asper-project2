@@ -251,8 +251,12 @@ footer div.links ul{
         font-size: 0.7rem;
         width: max-content;
     }
+
+    
     
 }
+.fas,label{display: none !important;}
+
 @media only screen and (max-width:768px){
     header .navbar{
         display: block;
@@ -277,6 +281,21 @@ footer div.links ul{
         margin-left: 30%;
         width: 100%;
     }
+    .fas{
+        display: inline-block !important;
+        cursor: pointer;
+        font-size: 2rem;
+        position: absolute;
+        left: 2.5rem;
+        top: 4.5rem;
+    }
+    .off{
+        display: none !important;
+    }
+    .on{
+        display: inherit;
+
+    }
     ul.menu{
          
         align-items: center;
@@ -288,6 +307,8 @@ footer div.links ul{
     body > main > h1{
         text-align: center;
     }
+
+
    
  
     header .navbar nav ul li{
