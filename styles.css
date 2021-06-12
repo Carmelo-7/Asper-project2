@@ -253,6 +253,12 @@ footer div.links ul{
     }
     
 }
+.fas{display: none !important;}
+nav ul li a:hover{
+    border-bottom: 5px solid #04a7d6;
+
+}
+
 @media only screen and (max-width:768px){
     header .navbar{
         display: block;
@@ -277,17 +283,49 @@ footer div.links ul{
         margin-left: 30%;
         width: 100%;
     }
+    .fas{
+        display: inline-block !important;
+        cursor: pointer;
+        font-size: 2rem;
+        position: absolute;
+        left: 2.5rem;
+        top: 4.5rem;
+    }
+    .off{
+        display: none !important;
+    }
+    .on{
+        display: inherit;
+
+    }
     ul.menu{
          
         align-items: center;
         flex-direction: column;
         width: 100%;
         position: relative;
-        left: 10vw;
+        left: 5vw;
     }
     body > main > h1{
         text-align: center;
     }
+
+
+   
+ 
+    header .navbar nav ul li{
+
+        display: flex;
+        font-size: 0.8rem;
+        justify-content: space-between;
+        margin-right: 2rem;
+        
+    }
+    .links ul li a {
+        font-size: 0.7rem;
+        width: max-content;
+    }
+}
    
  
     header .navbar nav ul li{
