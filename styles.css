@@ -253,11 +253,7 @@ footer div.links ul{
     }
     
 }
-.fas{display: none !important;}
-nav ul li a:hover{
-    border-bottom: 5px solid #04a7d6;
 
-}
 
 @media only screen and (max-width:768px){
     header .navbar{
@@ -283,21 +279,7 @@ nav ul li a:hover{
         margin-left: 30%;
         width: 100%;
     }
-    .fas{
-        display: inline-block !important;
-        cursor: pointer;
-        font-size: 2rem;
-        position: absolute;
-        left: 2.5rem;
-        top: 4.5rem;
-    }
-    .off{
-        display: none !important;
-    }
-    .on{
-        display: inherit;
-
-    }
+    
     ul.menu{
          
         align-items: center;
