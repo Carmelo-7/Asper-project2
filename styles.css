@@ -38,6 +38,10 @@ nav ul li {
     margin: 0.8rem;
     
 }
+nav ul li a:hover{
+    border-bottom: 5px solid #04a7d6;
+
+}
 nav ul li a{
     text-decoration: none;
     color: black;
@@ -255,7 +259,7 @@ footer div.links ul{
     
     
 }
-.fas,label{display: none !important;}
+.fas{display: none !important;}
 
 @media only screen and (max-width:768px){
     header .navbar{
